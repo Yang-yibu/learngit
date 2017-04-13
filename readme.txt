@@ -11,4 +11,7 @@ Creating a new branch is quick and simple
 
 分支管理策略
 
+git merge --no-ff -m "merge with no-ff" dev
+本次合并创建了一个新的 commit 所以加上了 -m 参数 把描述写进去
+这也是为什么禁止 Fast forward 模式 能从分支历史上看到分支信息
 不使用 --no-ff 参数
